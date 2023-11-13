@@ -1,0 +1,115 @@
+body{
+  background-color: ;
+  margin-top: 100px;
+ background-image: url(https://fortnite.gg/img/items/3507/locker.jpg?1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ color: white
+}
+div{
+  margin: auto;
+  text-align:left;
+  margin-auto;
+}
+#peely{
+  font-size: 25px;
+}
+#Marshmellow{
+  font-size: 25px;
+}
+#TravisScott{
+  font-size: 25px;
+}
+#Aura{
+  font-size: 25px;
+  margin:auto;
+}
+#HareyQuinn{
+  font-size: 25px
+}
+#Siren{
+  font-size: 25px
+
+}
+.frame{
+  border:double 30px;
+  width:60%;
+border-color:cyan;
+}
+.good{
+  border:double 30px;
+  border-color:blue;
+  width:60%;
+  margin-top:20px ;
+  margin-bottom:20px;
+  
+}
+.nice{
+  border:double 30px;
+  border-color:;
+  width:60%;
+  margin-bottom:30px;
+}
+.gg{
+  border:double 20px;
+  width:60%;
+  margin-bottom:30px;
+  border-color:dodgerblue
+
+}
+.yc{
+  border:double 20px;
+  width:60%;
+   margin-bottom:30px;
+  border-color:yellow
+}
+.well{
+  border:double white 20px;
+  width:60%;
+  border-color:green
+}
+
+span{
+  background-color:black;
+}
+.hide{
+  visibility:hidden;
+}
+.show{
+  visibility: visible;
+}
+#pa1:hover{
+  background:yellow;
+}
+#mainDiv{
+  margin: auto;
+}
+div{
+  text-align:center;
+}
+#div1{
+  background-color:cyan;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+ 
+}
+.tilt:hover{
+  transform: translateY(6px) rotate(-4deg);
+}
+#yj{
+  font-size:60px;
+  
+}
+h3{
+  font-size:60px;
+  background-color: "";
+}
+small{
+  font-size:20px;
+}
+#u{
+  font-size:60px;
+}

@@ -1,0 +1,217 @@
+/*
+main
+*/
+#all {
+  background-color: rgb(240, 240, 240);
+  margin: 0px;
+  width: 100%;
+  padding: 0px;
+  outline: none;
+  position: cover;
+  
+}
+
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid cyan;
+  perspective: 1000px;
+  text-align: center;
+  position: center;
+  margin-left: 800px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+  
+}
+
+.flip-box-back {
+  background-color: yellow;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+#yticon {
+  color: white;
+}
+
+
+
+#dark {
+  text-align: right;
+}
+
+#darkmode {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(0, 252, 210);
+}
+
+header {
+  color: rgb(51, 153, 255);
+}
+
+body {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+p {
+ font-size: 25px;
+  
+}
+
+ul { 
+  display: inline-block; 
+  text-align: left; 
+}
+
+a:link {
+  color: rgb(0, 153, 255);
+}
+
+a:visited {
+  color: rgb(0, 153, 255);
+}
+
+a:hover {
+  
+  color: rgb(0, 153, 255);
+}
+
+a:active {
+  color: rgb(0, 153, 255);
+}
+
+#mcimg {
+  width: 1880px;
+}
+
+iframe {
+ 
+  border-style: solid;
+  border-color: cyan;
+  border-radius: 5px;
+}
+
+
+.sub {
+  color: red;
+  font-size: 90px;
+  text-shadow: 3px 3px black;
+}
+
+.ironman {
+  width: 640;
+  height: 360;
+}
+
+
+.saml {
+  font-size: 15px;
+}
+
+.kenshinicon {
+  
+  background-color: white;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
+
+/*
+
+warriors
+
+*/
+
+
+.warrior1 {
+  border-style: solid;
+  border-color: cyan;
+  border-radius: 5px;
+}
+
+.spoiler {
+  color: rgb(255, 0, 0);
+  font-size: 150px;
+  text-shadow: 3px 3px black;
+}
+
+ol {
+  display: inline-block;
+  text-align: center;
+}
+
+.books {
+  width: 1000px;
+  text-align: center;
+  margin-left: 400px;
+}
+
+
+/*
+eeeeeeee
+
+*/
+
+
+
+/*
+eeeeeee
+*/
+.foot {
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+}
+

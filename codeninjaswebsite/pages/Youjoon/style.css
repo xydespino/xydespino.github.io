@@ -1,0 +1,98 @@
+
+  
+  
+  
+  
+
+
+
+
+#mainDiv {
+  
+  width:750px;
+  
+  
+  
+}
+
+#fortnite{
+  
+  
+  
+  
+}
+
+.frame{
+  border:double white 20px;
+  width: 700px;
+  margin: 70px;
+  padding: 15px;
+  
+  
+}
+
+div { font-size:27px;}
+
+
+
+  
+  
+  
+
+
+#intro {
+  margin: 85px;
+
+ 
+  
+  
+}
+
+.tilt:hover{
+ transform: traslateY(6px) rotate(-4deg);
+  
+}
+
+.underline:hover{
+  text-decoration:underline;
+  
+  
+  
+}
+
+body { 
+  background-image:url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/fortnite/7/7e/Twilight_Fright.jpg?width=1280");
+ background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+color: white
+}
+
+span{
+  background-color:black; } 
+  
+  coolFont1{
+    font-family: Garamond, serif
+  }
+  
+  
+  .hide {visibility:hidden;
+    
+    
+  }
+  
+  .show
+  {visibility:visible
+    
+    
+    
+  }
+
+
+
+
+
+  
+  
+  

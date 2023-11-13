@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+#Title{
+  font-size:75px;
+  font-family:times;
+}
+
+#maindiv{
+  font-family:lato;
+  margin-right:50px;
+}
+
+.subtitle{
+  font-family:times;
+}
+
+#menuthing{
+  border-style:outset;
+  border-color:gray;
+  padding-left:50px;
+  margin-right:1500px;
+}
+
+#CHIKEN{
+  font-size:200px;
+}
+
+.hide{
+  display:none;
+}
+
+
+
+#maindiv{
+    
+}
+

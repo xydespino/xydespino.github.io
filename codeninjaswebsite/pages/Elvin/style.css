@@ -1,0 +1,59 @@
+#title {
+  font-size: 300px;
+}
+
+#meme {
+  border:groove black 100px;
+}
+
+body {
+  background-image:
+    url("https://acegif.com/wp-content/gifs/rainbow-frog-20.gif");
+  /*
+  background-image:
+    url("https://static.wikia.nocookie.net/0bafecce-742c-4129-954b-a4708e9acaab")
+  */
+}
+
+
+
+#stem {
+  background-image: url("https://worldoftanks.com/dcont/fb/imagesforarticles/chieftains_hatch/caption_contest-b22g.jpg");
+}
+
+.rainbow {
+  background-image:
+}
+
+.doge {
+  background-image:url("https://media2.giphy.com/media/aFTt8wvDtqKCQ/giphy.gif");
+}
+
+.rickroll {
+  background-image:url("https://media.tenor.com/images/52c80bffe2f2675700e4397d25071ae3/tenor.gif")
+}
+
+
+.hide {
+  visibility:hidden;
+}
+
+.SHOW {
+  visibility:visible;
+}
+
+
+
+#title2 {
+  font-size:50px;
+}
+
+#kingdiv {
+  margin:auto
+    
+}
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+body {
+  font-family: system-ui;
+  background: #f11d11;
+  color: white;
+  text-align: left;
+width
+}
+
+
+
+.hide {
+  visibility:hidden;
+}
+
+
+  
+ 
+.show{
+  visibility:visible;
+}
+
+
+
+
+#mainDiv{background-color: red;
+width 30px;
+height 10px;
+margin: auto;
+
+}
+
+#div1 {
+  background-color:  blue;
+  width: 400px;
+  height: 200px;
+}
+
+
+.tilt:hover { 
+  
+  transform: translateX(500px) rotate(-4deg);
+  
+} 

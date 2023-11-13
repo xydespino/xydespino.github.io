@@ -1,0 +1,32 @@
+#Nuggies:hover {
+  background-color: lavenderblush;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+}
+.tilt:hover{
+  transform: translateY(6px) rotate(-4deg);
+}
+
+#chiky1 {
+  background-color: lavenderblush;
+}
+#chiky2 {
+  background-color: lavender;
+}
+#chiky3 {
+ background-color: lightblue;
+}
+#chiky4 {
+  background-color: rgb(1255, 255, 176);
+}
+#yasnuggie {
+  background-color: rgb(244, 194, 194);
+}  
+
+
+#mainDiv {
+  width: 750px;
+  margin: auto;
+  margin-right: 30px; 
+}

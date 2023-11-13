@@ -1,0 +1,109 @@
+var(--move_this_time) = 10
+.coolfont1 {
+  font-family: Fantasy;
+  color: blue;
+}
+
+.coolfont2 {
+  font-family: "lucida console", "Courier New", monospace;
+  color: green;
+  background-color: black;
+}
+
+#video {
+  width: 590;
+  height: 332;
+}
+
+.coolfont3 {
+  font-family: monospace;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  background-width: 100px;
+  padding: 10px;
+  margin-right: 50px;
+
+}
+
+.coolfont4 {
+  font-family: monospace;
+  color: white;
+  background-color: black;
+  border-radius: 50px;
+  background-width: 100px;
+  padding: 10px;
+  margin-right: 190px;
+
+}
+
+#everything {
+  width: 1550px;
+  margin: auto;
+  
+}
+
+.show {
+  visibility:visible;
+}
+
+.hide {
+  visibility:hidden;
+}
+
+#introdiv:hover {
+  background: darkgrey;
+}
+
+#pydiv:hover {
+  background: darkgrey;
+}
+
+#div3:hover {
+  background: darkgrey;
+}
+
+#introdiv {
+  width: 1550;
+  margin: auto:
+  
+}
+
+#button1:hover {
+  background: darkgrey;
+}
+
+#button2:hover {
+  background: darkgrey;
+}
+
+#button3:hover {
+  background: darkgrey;
+}
+
+#button4:hover {
+  background: darkgrey;
+}
+
+#divvy {
+  width: 800px;
+  height: 400px;
+  background-color: green;
+  padding: 15px;
+  border-radius: 200px;
+}
+
+.tilt:hover{
+transform: translatey(128px) rotate(11deg) translatex(10px);
+move_this_time = move_this_time + 10
+  
+
+}
+
+#the_random_num {
+  text-align:center;
+}
+
+
+
+

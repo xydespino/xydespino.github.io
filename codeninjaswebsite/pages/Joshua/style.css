@@ -1,0 +1,87 @@
+#maindiv{
+
+
+}
+
+
+
+body{
+   background-colorg:lihtblue;
+  
+  
+}
+
+div {
+  background-color:teal;
+  font-size: 30px;
+ with: 500px ;
+border: solid yellow 30px ;
+
+
+}
+
+
+h1{
+ font-size: 60px; 
+  background-color:red;
+}
+
+h2{
+  font-size: 40px;
+  background-color:green;
+  
+}
+
+
+p{
+ font-size: 40px; 
+  background-color:brown;
+  
+}
+
+span{
+  background-color:pink;
+  
+  
+  
+  
+}
+
+
+#animatedSongs {
+  background-color:teal;
+  font-size: 30px;
+ with: 500px ;
+border: solid lightgreen 50px ;
+margin: auto;
+  
+  }
+
+
+
+
+
+
+.green{
+  
+  color: teal;} 
+  
+
+#div1 {
+background-color: lightgreen;  
+width: 300px;  
+ height:100px; 
+ margin: auto; 
+  
+  
+  
+} 
+  
+  
+  
+ 
+
+.tilt:hover{
+ transform: translateY(600px) rotate(-400deg);  
+  
+}

@@ -1,0 +1,69 @@
+﻿#mainDiv {
+    padding-top: 0.6%;
+    width: 970px;
+    height: 1150px;
+    background-color: rgb(108,180,238);
+    margin: auto;
+    border: solid black 5px;
+    border-radius: 5% 8% 3% 6%;
+    font-family: Cursive;
+}
+
+#titleDiv {
+    background-color: black;
+    color: white;
+    /*
+        eyesO.jpg retrived from: https://yt3.ggpht.com/ytc/AKedOLS0N4ahuRjS_7N0O-UvH9kJ6UCOeLSibNsjlPkJHQ=s900-c-k-c0x00ffffff-no-rj
+        date retrived: July 2021
+    */
+    background-image: url("eyesO.jpg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    text-align: left;
+    padding: 3%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: solid black 5px;
+    border-radius: 5% 8% 3% 6%;
+}
+
+h1 {
+    font-size: 210%;
+}
+
+h2 {
+    font-size: 100%;
+}
+
+.student {
+    /*
+        Style inspired by and slightly edited from: https://codepen.io/jadlimcaco/pen/ExjGrqJ
+        date retrived: July 2021
+    */
+    width: 20%;
+    padding-top: 5%;
+    background-color: white;
+    float: left;
+    border-top-left-radius: 37px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 110px 19px;
+    border-bottom-right-radius: 120px 24px;
+    display: block;
+    position: relative;
+    border: solid 3px black;
+    padding: 40px 60px;
+    max-width: 800px;
+    font-size: 200%;
+    text-align: center;
+    margin: 100px auto 0;
+    line-height: 28px;
+    transform: rotate(-1deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+}
+
+.student:hover {
+    transform: translateY(4px) rotate(-5deg);
+}
