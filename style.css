@@ -527,6 +527,9 @@ section {
   gap: 2.5rem;
   justify-content: space-around;
 }
+.article-container a {
+  justify-content: center;
+}
 
 article {
   display: flex;
@@ -561,7 +564,8 @@ article .icon {
   color: black;
 }
 .projecttools{
-  color: #0096FF;
+  color: black;
+  font-weight:700;
 }
 .project-btn {
   color: black;
