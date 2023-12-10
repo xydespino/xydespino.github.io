@@ -10,6 +10,9 @@
     #projects {
       height: fit-content;
     }
+    #experience{
+      padding-top: 100px;
+    }
   }
   
   @media screen and (max-width: 1200px) {
@@ -49,7 +52,7 @@
   
   @media screen and (max-width: 600px) {
     #about{
-      padding-top: 100px;
+      margin-top: 30vh;
     }
     #contact,
     footer {
@@ -95,6 +98,7 @@
       flex-direction: column;
       gap: 0.5rem;
       text-align: center;
+      padding-left: 0px;
     }
     .section__pic-container {
       width: auto;
@@ -112,6 +116,11 @@
     }
     .text-container {
       text-align: justify;
+    }
+
+
+    #experience{
+      padding-top: 0px;
     }
   }
   
