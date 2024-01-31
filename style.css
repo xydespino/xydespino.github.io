@@ -63,6 +63,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  margin-left: 20px;
 }
 
 .logo a:hover {
@@ -84,12 +85,13 @@ input {
   background-color: black;
   width: 24px;
   height: 2px;
+
   display: block;
   border-radius: 2px;
   cursor: pointer;
   position: relative;
   top: 8px;
-  right: 0px;
+  right: 15px;
 }
 
 .open:before {
@@ -352,6 +354,9 @@ section {
 
 #xydinmonaco{
   border-radius: 3%;
+  border: 3px solid black;
+  height: 60vh;
+  
 }
 
 .section__text {
