@@ -8,9 +8,8 @@
 /* Page Style */
 body {
   font-family: "Poppins", sans-serif;
-  /* padding-bottom: 10000; */
-  border-style: solid  ;
-  border-width: 5px;
+  /* padding-bottom: 10000;*/
+
   
 }
 
@@ -352,9 +351,8 @@ section {
   height: 5rem;
 }
 
-#xydinmonaco{
+#mainpicture{
   border-radius: 3%;
-  border: 3px solid black;
   height: 60vh;
   
 }
@@ -367,6 +365,7 @@ section {
 .section__text p {
   font-weight: 600;
 }
+
 
 .section__text__p1 {
   text-align: center;
@@ -637,3 +636,15 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Main Text */
+#professionText {
+  transition: opacity 1s ease-in-out; /* Fade effect transition */
+  opacity: 1; /* Initial opacity */
+}
+
+/* Hidden state (for the fade-out effect) */
+.fade-out {
+  opacity: 0;
+}
+
