@@ -9,7 +9,6 @@
 body {
   font-family: "Poppins", sans-serif;
   /* padding-bottom: 10000;*/
-
   
 }
 
@@ -56,7 +55,7 @@ a {
 a:hover {
   color: grey;
   text-decoration: underline;
-  text-underline-offset: 1rem;
+  text-underline-offset: 0.5rem;
   text-decoration-color: rgb(181, 181, 181);
 }
 
@@ -445,7 +444,7 @@ section {
 
 /* About Section */
 #xyd-title{
-  color: orange;
+  color: black;
   font-size: x-large;
   padding-bottom: 20px;
 
@@ -602,6 +601,7 @@ article .icon {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   background: (250, 250, 250);
+  background: white;
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -641,6 +641,7 @@ footer p {
 #professionText {
   transition: opacity 1s ease-in-out; /* Fade effect transition */
   opacity: 1; /* Initial opacity */
+  color: #007fff;
 }
 
 /* Hidden state (for the fade-out effect) */
@@ -648,3 +649,32 @@ footer p {
   opacity: 0;
 }
 
+.fade-text {
+  font-size: 24px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  white-space: nowrap;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+      opacity: 0;
+  }
+  10%, 30% {
+      opacity: 1;
+  }
+  40%, 60% {
+      opacity: 0;
+  }
+  70%, 90% {
+      opacity: 1;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .title{padding-top: 180px;}
+  
+}
+  
