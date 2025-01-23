@@ -16,35 +16,35 @@ function toggleMenu() {
 
 
 
-  let counter = 0;
-  const messages = [
-      " 🗺️ Traveller ",
-      " 🍓Crêpe lover ",
-      " 🍫 devourer 🥐",
-      " 🍹Bartender🍸",
-      " 🏀 Enthusiast"
-  ];
+  // Fade animation
+  const textElement = document.getElementById('professionText');
+  const textArray = [      
+    " 🗺️ Traveller ✈️ ",
+    " 🍓 Crêpe lover 🍌",
+    " 🍹 Bartender 🍸",
+    " 🐾 Frenchie Lover 🐾 ",
+    " 🍫 Devourer 🥐",
+    " 🏀 Enthusiast"];
 
-  function changeText() {
-      const h1Element = document.getElementById('professionText');
-      
-      // Add fade-out class to start fading out
-      h1Element.classList.add('fade-out');
-      console.log('this is working')
-      // Wait for the fade-out to complete (1s), then change the text
-      setTimeout(() => {
-          h1Element.textContent = messages[counter];
-          
-          // Remove fade-out class and trigger fade-in
-          h1Element.classList.remove('fade-out');
-          
-          // Increment the counter and reset it when it reaches the end of the array
-          counter = (counter + 1) % messages.length;
-      }, 1000); // Delay for fade-out to complete
-  }
+    let currentIndex = 0;
 
-  // Set interval to change the text every 5 seconds
-  setInterval(changeText, 5000);
+    // Function to change text and apply fade-in effect
+    function changeText() {
+        // Fade out first by reducing opacity
+        textElement.style.opacity = 0;
+        
+        // Wait for the fade-out to complete before changing the text
+        setTimeout(function() {
+            textElement.textContent = textArray[currentIndex]; // Update text content
+            currentIndex = (currentIndex + 1) % textArray.length; // Cycle through text array
+            
+            // Fade in by increasing opacity
+            textElement.style.opacity = 1;
+        }, 1000); // 1 second to match the fade-out duration
+    }
 
-  // Change text immediately when the page loads
-  window.onload = changeText;
+    // Trigger changeText every 3 seconds
+    setInterval(changeText, 3000);
+
+    // Start the first fade effect
+    changeText();
