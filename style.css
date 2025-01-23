@@ -29,7 +29,7 @@ a,
 }
 
 /* Desktop Navigation Bar */
-
+/* 
 nav,
 .nav-links {
   display: flex;
@@ -70,10 +70,10 @@ a:hover {
   text-decoration: none;
   color: black;
 }
-
+ */
 /* Hamburger Menu */
 
-#hamburger-nav {
+/* #hamburger-nav {
   display: none;
 }
 input {
@@ -184,7 +184,7 @@ input {
 }
 
 /* Links when hovering */
-.menu ul li a:hover {
+/* .menu ul li a:hover {
   color: #ff8702;
 }
 
@@ -218,7 +218,7 @@ input {
 }
 
 /* X Icon */
-#menuToggle:checked ~ .menuOpen .open:before {
+/* #menuToggle:checked ~ .menuOpen .open:before { 
   content: "";
   background-color: white;
   transform: rotate(45deg);
@@ -240,7 +240,7 @@ input {
 
 #menuToggle:not(:checked) ~ .menuEffects ul {
   transform: translateY(-30%);
-}
+} */ 
 
 /* .hamburger-menu {
   position: relative;
