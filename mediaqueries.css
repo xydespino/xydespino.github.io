@@ -52,8 +52,8 @@
   
   @media screen and (max-width: 600px) {
     #about{
-      margin-top: 30vh;
-    }
+      margin-top: 5vh;
+    } 
     #contact,
     footer {
       height: 40vh;
@@ -62,10 +62,7 @@
       height: 83vh;
       margin-bottom: 0;
     }
-    /* #xydinmonaco{
-      width: 50%;
-      height: auto;
-    } */
+
     #gradpic{
       height: 70vh;
     }
