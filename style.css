@@ -681,7 +681,10 @@ footer p {
   /* For mobile phones: */
   /* .title{padding-top: 100px;} */
   #profile{
-    padding-top: 10vh;
+    padding-top: 14vh;
+  }
+  #profiletext{
+    padding-top: 25vh;
   }
 
 }
