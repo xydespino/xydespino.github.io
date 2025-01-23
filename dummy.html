@@ -3,71 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fade Animation Every 3 Seconds</title>
-
+    <title>About Me</title>
     <style>
-        /* Basic styling for the text */
-        #professionText {
-            font-size: 1.5em;
-            text-align: center;
-            opacity: 1; /* Initial visibility */
-            transition: opacity 2s ease-in-out; /* Fade transition over 2 seconds */
-        }
-
-        /* Add a class to trigger fade-out effect */
-        .fade-out {
-            opacity: 0; /* Make the element fade out */
-        }
-
-        /* Optional: Centering content vertically and horizontally */
         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .about-section {
             display: flex;
-            justify-content: center;
             align-items: center;
-            height: 100vh;
-            background-color: #f8f9fa;
+            justify-content: center;
+            padding: 50px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 50px auto;
+            border-radius: 8px;
+        }
+
+        .profile-pic {
+            flex: 1;
+            max-width: 200px;
+            margin-right: 20px;
+        }
+
+        .profile-pic img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .bio {
+            flex: 2;
+        }
+
+        .bio h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .bio p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .bio button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .bio button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Hamburger menu styles */
+        .hamburger {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .hamburger div {
+            background-color: #333;
+            height: 4px;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .hamburger.active div:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        .hamburger.active div:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active div:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
         }
     </style>
 </head>
 <body>
+    <div class="about-section">
+        <div class="profile-pic">
+            <img src="https://via.placeholder.com/200" alt="Profile Picture">
+        </div>
+        <div class="bio">
+            <h1>John Doe</h1>
+            <p>Hello! I'm John, a passionate web developer with a knack for creating elegant and functional designs. I specialize in front-end development and love bringing ideas to life on the web.</p>
+            <button onclick="sayHello()">Say Hello</button>
+        </div>
+    </div>
 
-    <p id="professionText">Software Developer</p>
+    <div class="hamburger" onclick="toggleHamburger(this)">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 
     <script>
-        let counter = 0;
-        const professions = [
-            "Software Developer",
-            "Web Designer",
-            "UI/UX Specialist",
-            "Data Analyst",
-            "Product Manager"
-        ];
-
-        function changeText() {
-            const professionElement = document.getElementById('professionText');
-
-            // Add the fade-out class to start fading out the text
-            professionElement.classList.add('fade-out');
-
-            // Wait for 2 seconds (duration of the fade-out effect), then change the text
-            setTimeout(() => {
-                // Change the text content
-                professionElement.textContent = professions[counter];
-
-                // Remove the fade-out class to trigger fade-in
-                professionElement.classList.remove('fade-out');
-            }, 2000); // Wait for 2 seconds (duration of fade-out)
-
-            // Increment the counter and loop back to the start when at the end of the array
-            counter = (counter + 1) % professions.length;
+        function sayHello() {
+            alert('Hello! Thanks for visiting my portfolio.');
         }
 
-        // Set interval to change the text every 5 seconds (longer interval to accommodate the fade)
-        setInterval(changeText, 5000);
-
-        // Initial call to change text immediately when the page loads
-        window.onload = changeText;
+        function toggleHamburger(element) {
+            element.classList.toggle('active');
+        }
     </script>
-
 </body>
 </html>
