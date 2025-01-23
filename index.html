@@ -10,13 +10,128 @@
     <title>Xyd Espino</title>
     <link rel="icon" href="assets/xydlogo.png" type="image/x-icon">
     <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Navbar imports -->
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/navbar-assets/css/styles.css">
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+
+
     
   </head>
   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+        <nav class="nav container">
+           <div class="nav__data">
+              <a href="#" class="nav__logo">
+                Xyd Espino
+              </a>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                 <i class="ri-menu-line nav__burger"></i>
+                 <i class="ri-close-line nav__close"></i>
+              </div>
+           </div>
+
+           <!--=============== NAV MENU ===============-->
+           <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                 <!-- <li><a href="#" class="nav__link">Home</a></li> -->
+
+                
+
+                 <!--=============== DROPDOWN 1 ===============-->
+                 <!-- <li class="dropdown__item">
+                    <div class="nav__link">
+                       Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-pie-chart-line"></i> Overview
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-arrow-up-down-line"></i> Transactions
+                          </a>
+                       </li> -->
+
+                       <!--=============== DROPDOWN SUBMENU ===============-->
+                       <!-- <li class="dropdown__subitem">
+                          <div class="dropdown__link">
+                             <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                          </div>
+
+                          <ul class="dropdown__submenu">
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-file-list-line"></i> Documents
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-cash-line"></i> Payments
+                                </a>
+                             </li>
+     
+                             <li>
+                                <a href="#" class="dropdown__sublink">
+                                   <i class="ri-refund-2-line"></i> Refunds
+                                </a>
+                             </li>
+                          </ul>
+                       </li>
+                    </ul>
+                 </li> -->
+                 
+                 <!-- =============== DROPDOWN 2 ===============
+                 <li class="dropdown__item">
+                    <div class="nav__link">
+                       Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                    </div>
+
+                    <ul class="dropdown__menu">
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-user-line"></i> Profiles
+                          </a>                          
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-lock-line"></i> Accounts
+                          </a>
+                       </li>
+
+                       <li>
+                          <a href="#" class="dropdown__link">
+                             <i class="ri-message-3-line"></i> Messages
+                          </a>
+                       </li>
+                    </ul>
+                 </li> -->
+                 <li><a href="#about" class="nav__link">About</a></li>
+                 <li><a href="#experiences" class="nav__link">Experience</a></li>
+                 <li><a href="#Project" class="nav__link">Projects</a></li>
+            
+                 <li><a href="#contact" class="nav__link">Contact</a></li>
+              </ul>
+           </div>
+        </nav>
+     </header>
+
+
+
     <!-- Desktop Header -->
-    <nav id="desktop-nav">
+    <!-- <nav id="desktop-nav">
       <div class="logo"><a href="index.html"></a>Xyd Espino</div>
       <div>
         <ul class="nav-links">
@@ -24,15 +139,17 @@
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <!-- <li><a href="stockanalyzer.html">Stock Analyzer</a></li> -->
+          <li><a href="stockanalyzer.html">Stock Analyzer</a></li> 
         </ul>
-        <!-- <button type="button" class="btn btn-primary"><a href="https://calendly.com/xydespino/talk-to-me" target="_blank">Schedule a call</a></button> -->
+        <button type="button" class="btn btn-primary"><a href="https://calendly.com/xydespino/talk-to-me" target="_blank">Schedule a call</a></button> 
       </div>
-    </nav>
+    </nav> -->
+    
     <!-- Mobile Header -->
+    <!--
     <nav id="hamburger-nav">
       <div class="logo">Xyd Espino</div>
-      <!-- Hamburger menu -->
+       Hamburger menu 
         <div id="menuArea">
           <input type="checkbox" id="menuToggle"></input>
           <label for="menuToggle" class="menuOpen">
@@ -51,6 +168,7 @@
           </div>
         </div>
       </nav>
+    -->
     <section id="profile">
       <div class="section__pic-container">
         <img id="mainpicture" src="assets/lakecomoxyd.jpeg" alt="Xyd in Monaco" />
@@ -90,13 +208,7 @@
           />
         </div>
       </div>
-      <img
-      id="firstArrow"
-      src="./assets/arrow.png"
-      alt="Arrow icon"
-      class="icon arrow"
-      onclick="location.href='./#about'"
-    />
+
     </section>
      <!-- <section id="websites">
       <div class="section__text">
@@ -160,12 +272,7 @@
         <img src="" alt="">
         <img src="" alt="">
       </div> 
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#about'"
-      />
+
     </section> -->
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
@@ -219,12 +326,7 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      />
+
     </section>
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
@@ -436,12 +538,7 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+
     </section>
     <section id="projects">
       <p class="section__text__p1">Browse My Recent</p>
@@ -537,12 +634,7 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
+
     </section>
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
@@ -588,6 +680,7 @@
       </nav>
       <p>Copyright &#169; 2023 Xyd Espino. All Rights Reserved.</p>
     </footer>
+    <script src="assets/navbar-assets/js/main.js"></script>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
