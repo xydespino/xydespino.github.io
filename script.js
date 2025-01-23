@@ -20,11 +20,16 @@ function toggleMenu() {
   const textElement = document.getElementById('professionText');
   const textArray = [      
     " 🗺️ Traveller ✈️ ",
-    " 🍓 Crêpe lover 🍌",
+    " 🏀 Enthusiast",
     " 🍹 Bartender 🍸",
+    " 🍓 Crêpe lover 🍌",
     " 🐾 Frenchie Lover 🐾 ",
+    " 💻 Data Analyst 👨‍💻",
     " 🍫 Devourer 🥐",
-    " 🏀 Enthusiast"];
+
+
+  
+  ];
 
     let currentIndex = 0;
 
